@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+#product-catalog {
+  font-size: 1.1rem;
+  color: black;
+}
+#product-catalog .name {
+  font-weight: 500;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#product-catalog .description {
+  font-size: 0.8rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#product-catalog i { 
+  margin-left: 1.3rem;
+  font-size: 1.1em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cp {
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.in-stock {
+  color: #80cf4b;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.out-of-stock {
+  color: #fd2222
 }
