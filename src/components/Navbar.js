@@ -1,9 +1,6 @@
 import React from 'react'
 import logo from '../images/play-button.svg'
 
-
-
-
 const Navbar = () => {
     return (
         <nav className="navbar navbar-light bg-light">

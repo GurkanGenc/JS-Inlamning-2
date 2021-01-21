@@ -1,16 +1,16 @@
-#product-catalog {
+#play-list {
   font-size: 1.1rem;
   color: black;
 }
-#product-catalog .name {
+#play-list .name {
   font-weight: 500;
 }
 
-#product-catalog .description {
+#play-list .description {
   font-size: 0.8rem;
 }
 
-#product-catalog i { 
+#play-list i { 
   margin-left: 1.3rem;
   font-size: 1.1em;
 }
@@ -19,10 +19,10 @@
   cursor: pointer;
 }
 
-.in-stock {
+.in-list {
   color: #80cf4b;
 }
 
-.out-of-stock {
+.out-of-list {
   color: #fd2222
 }

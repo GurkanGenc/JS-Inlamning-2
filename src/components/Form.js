@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
 import uuid from 'react-uuid'
 
-const Form = ({ products, setProducts }) => {
+const Form = ({ songs, setSongs }) => {
 
     const [name, setName] = useState('')
     const [description, setDescription] = useState('')
     const [disableSubmit, setDisableSubmit] = useState(true)
 
     const nameHandler = (e) => {
-        e.target.value.length >= 2 ? setDisableSubmit(false) : setDisableSubmit(true)        
+        e.target.value.length >= 2 ? setDisableSubmit(false) : setDisableSubmit(true)
         setName(e.target.value)
     }
     
@@ -18,7 +18,7 @@ const Form = ({ products, setProducts }) => {
 
     const submitHandler = (e) => {
         e.preventDefault()
-        setProducts([ ...products, { name: name, description: description, inStock: true, id: uuid() }])
+        setSongs([ ...songs, { name: name, description: description, inStock: true, id: uuid() }])
         setName('')
         setDescription('')
         setDisableSubmit(true)
